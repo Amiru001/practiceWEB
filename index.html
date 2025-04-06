@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AP Saloon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header / Hero -->
+  <header class="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold md:text-5xl">Welcome to AP Saloon</h1>
+      <p class="mt-4 text-lg md:text-xl">Style that speaks. Elegance that lasts.</p>
+      <a href="#contact" class="mt-6 inline-block bg-white text-purple-600 font-semibold py-2 px-6 rounded-full shadow hover:bg-gray-100 transition">Book Now</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-12 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">About AP Saloon</h2>
+      <p class="text-lg leading-relaxed">At AP Saloon, we blend modern style with classic charm. With experienced professionals and high-quality products, we make sure you leave our place with confidence and a smile.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-12 bg-white px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 bg-gray-100 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-2">Haircuts</h3>
+          <p>Trendy styles and classic cuts for men, women, and kids.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-2">Beard Styling</h3>
+          <p>Professional beard trimming, shaping, and grooming.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-2">Hair Coloring</h3>
+          <p>Vibrant colors and highlights to match your personality.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-2">Facials</h3>
+          <p>Relaxing facial treatments for fresh, glowing skin.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-2">Kids Cuts</h3>
+          <p>Fun and gentle styling for your little ones.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-2">Hair Treatments</h3>
+          <p>Strengthening, smoothing, and nourishing treatments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-12 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Our Prices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+        <div class="bg-white shadow p-6 rounded-lg">
+          <p class="font-semibold">Men's Haircut - <span class="text-purple-600">Rs. 800</span></p>
+          <p class="font-semibold">Beard Trim - <span class="text-purple-600">Rs. 500</span></p>
+          <p class="font-semibold">Hair Coloring - <span class="text-purple-600">Rs. 2000+</span></p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-lg">
+          <p class="font-semibold">Facial - <span class="text-purple-600">Rs. 1500</span></p>
+          <p class="font-semibold">Kids Haircut - <span class="text-purple-600">Rs. 600</span></p>
+          <p class="font-semibold">Hair Treatment - <span class="text-purple-600">Rs. 2500+</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-gray-100 py-12 px-4">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">What Our Clients Say</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p>"AP Saloon is the best in town! They really know how to bring out your best look."</p>
+          <p class="mt-4 font-semibold">- Ruwan Silva</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p>"Loved the clean environment and friendly staff. Highly recommend!"</p>
+          <p class="mt-4 font-semibold">- Nadeesha Fernando</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12 px-4 bg-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+      <p class="mb-6">Have a question or want to make an appointment? Send us a message below.</p>
+      <form id="contactForm" class="space-y-4 text-left">
+        <input type="text" placeholder="Your Name" required class="w-full border p-3 rounded" />
+        <input type="email" placeholder="Your Email" required class="w-full border p-3 rounded" />
+        <textarea placeholder="Your Message" required rows="4" class="w-full border p-3 rounded"></textarea>
+        <button type="submit" class="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 AP Saloon. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Thank you for contacting AP Saloon! We'll get back to you soon.");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
